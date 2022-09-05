@@ -6,11 +6,24 @@
 
 <h4 align="center">Basic IaaS demo presenting integration of 3 AWS services </h4>
 
+![screenshot](./docs/demo.gif)
+
 <p align="center">
-  <a href="#key-features">Key Features</a> •
+  <a href="#features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#license">License</a>
 </p>
+
+## What it does
+* creates S3 bucket with static files hosting enabled ([s3.tf](s3.tf))
+  * uploads sample index.html file ([./templates/index.html](./templates/index.html))
+  * configures policy access - objects in buckets are accessible only via CloudFront Distribution
+* creates CloudFront Distribution for a given S3 bucket
+  * distribution is associated with WAF ACL below 
+* creates WAF ACL with a rule that allows to allow traffic only from a given range of ip
+  * for a demo purpose, IP is taken from a host, from where these terraform changes were applied
+
+All resources created by Terraform are documented in [docs/README.md](docs/README.md])
 
 ## Prerequisites
 
