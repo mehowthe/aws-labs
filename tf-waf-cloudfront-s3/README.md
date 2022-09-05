@@ -28,12 +28,11 @@ All resources created by Terraform are documented in [docs/README.md](docs/READM
 
 ## Prerequisites
 
+* [Git](https://git-scm.com)
 * Installed [terraform](https://www.terraform.io/downloads) (version `">=1.2.8"` or use [tfswitch](https://tfswitch.warrensbox.com/Install/)
 * [AWS account + AWS CLI with credentials configured](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) 
 
 ## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
