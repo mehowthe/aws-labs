@@ -9,7 +9,8 @@
 ![screenshot](./docs/demo.gif)
 
 <p align="center">
-  <a href="#features">Key Features</a> •
+  <a href="#what-it-does">What it does</a> •
+  <a href="#prerequisites">Prerequisites</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#license">License</a>
 </p>
