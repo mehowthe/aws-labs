@@ -49,6 +49,12 @@ $ terraform init
 
 # Create all the resources
 $ terraform apply
+
+```
+Cleanup:
+```bash
+# Destroy all resources
+$ terraform destroy
 ```
 
 ## License
